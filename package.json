@@ -1,0 +1,22 @@
+{
+  "name": "metalsmith-tutorial",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobinThrift/metalsmith-tutorial.git"
+  },
+  "author": "Robin Thrift <thrift.d.robin@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobinThrift/metalsmith-tutorial/issues"
+  },
+  "homepage": "https://github.com/RobinThrift/metalsmith-tutorial",
+  "devDependencies": {
+    "metalsmith": "^0.6.0"
+  }
+}
