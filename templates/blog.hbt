@@ -1,0 +1,15 @@
+{{> header}}
+<h2>{{title}}</h2>
+
+<article>
+    <ul>
+        {{#each collections.posts}}
+            <li>
+                <h3>{{this.title}}</h3>
+                <article>{{this.contents}}</article>
+            </li>
+        {{/each}}
+    </ul>
+</article>
+
+{{> footer}}
