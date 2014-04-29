@@ -22,6 +22,8 @@
     "metalsmith-templates": "^0.4.0",
     "handlebars": "^2.0.0-alpha.2",
     "metalsmith-collections": "^0.4.0",
-    "metalsmith-permalinks": "^0.3.0"
+    "metalsmith-permalinks": "^0.3.0",
+    "metalsmith-coffee": "^0.0.1",
+    "metalsmith-sass": "^0.1.1"
   }
 }

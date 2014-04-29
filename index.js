@@ -3,6 +3,8 @@ var Metalsmith  = require('metalsmith'),
     templates   = require('metalsmith-templates'),
     collections = require('metalsmith-collections'),
     permalinks  = require('metalsmith-permalinks'),
+    coffee      = require('metalsmith-coffee'),
+    sass        = require('metalsmith-sass'),
     Handlebars  = require('handlebars'),
     fs          = require('fs');
 
@@ -46,5 +48,11 @@ Metalsmith(__dirname)
         pattern: ':collection/:title'
     }))
     .use(templates('handlebars'))
+    .use(sass({
+        outputStyle: 'compressed'
+    }))
+    .use(coffee())
     .destination('./build')
-    .build()
+    .build(function(err, files) {
+        if (err) { throw err; }
+    });

@@ -1,0 +1,18 @@
+
+
+$accent: #d85312;
+
+$main-font: #0e0e0e;
+
+body {
+    color: $main-font;
+}
+
+a {
+    color: $accent;
+}
+
+.main-wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
