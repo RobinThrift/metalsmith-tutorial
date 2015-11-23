@@ -45,7 +45,7 @@ Metalsmith(__dirname)
     }))
     .use(markdown())
     .use(permalinks({
-        pattern: ':collection/:title'
+        pattern: './:collection/:title'
     }))
     .use(templates('handlebars'))
     .use(sass({
